@@ -38,7 +38,7 @@ public class MergeSort {
 
 	}
 	
-	/*Merges two arrays of doubles in ascending order*/
+	/*Merges two arrays of type double in ascending order*/
 	static void mergeHalves(double data[], int left, int middle, int right) {
 		int size1 = middle - left + 1;
 		int size2 = right - middle;
@@ -81,7 +81,7 @@ public class MergeSort {
 
 	}
 	
-	/*Runs the algorithm*/
+	/*Runs the algorithm and prints results*/
 	static void testAlgorithm() throws FileNotFoundException {
 		data = constructArray(data, new File("numbers100.txt"));
 		printData();
